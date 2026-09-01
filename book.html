@@ -1,0 +1,252 @@
+<!--  FEATURED BOOK PAGE FILE: book.html  -->  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Title One | Well Worth Reading</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <header>
+    <div class="heading-bar">
+
+      <a class="brand" href="index.html">
+        <span class="brand-top">Well Worth</span>
+        <span class="brand-bottom">Reading</span>
+      </a>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="reviews.html">Browse</a>
+        <a class="active" href="book.html">Featured book</a>
+      </nav>
+
+      <div class="search">
+        <input type="search" placeholder="Search titles or authors" aria-label="Search books">
+        <button type="button">Search</button>
+      </div>
+      <button type="button" id="darkmode" class="darkmode">Dark mode</button>
+
+    </div>
+  </header>
+
+  <main>
+    <div class="page">
+
+      <p class="browse-book">
+        <a href="reviews.html">Browse</a> &rsaquo; <span>Book Title One</span>
+      </p>
+
+      <div class="book-layout">
+
+        <!-- LEFT COLUMN - RELATED BOOKS -->
+        <aside class="book-side">
+
+          <h2 class="book-sideheading">Related books</h2>
+          <ul class="related-list">
+            <li>
+              <img src="images/book-4.jpg" alt="Cover of Book Title Four">
+              <div>
+                <h3>Book Title Four</h3>
+                <p class="author">Author Name</p>
+              </div>
+            </li>
+            <li>
+              <img src="images/book-7.jpg" alt="Cover of Book Title Seven">
+              <div>
+                <h3>Book Title Seven</h3>
+                <p class="author">Author Name</p>
+              </div>
+            </li>
+            <li>
+              <img src="images/book-2.jpg" alt="Cover of Book Title Two">
+              <div>
+                <h3>Book Title Two</h3>
+                <p class="author">Author Name</p>
+              </div>
+            </li>
+          </ul>
+
+          <h2 class="book-sideheading">Authors similar to</h2>
+          <ul class="author-list">
+            <li>Author Name Two</li>
+            <li>Author Name Three</li>
+            <li>Author Name Four</li>
+          </ul>
+
+        </aside>
+
+        <!-- CENTRE COLUMN - THE BOOK -->
+        <article class="book-main">
+
+          <div class="book-details">
+            <img class="book-cover" src="images/book-1.jpg" alt="Cover of Book Title One">
+
+            <div class="book-facts">
+              <h1>Book Title One</h1>
+              <p class="book-author">Author Name</p>
+
+              <p class="book-rating">
+                <span class="rating">4 out of 5</span>
+                <span class="rating-note">based on 128 ratings</span>
+              </p>
+
+              <button type="button" class="rate-button">Rate this book</button>
+            </div>
+          </div>
+
+          <section class="book-block">
+            <h2>Summary</h2>
+            <p>
+              I created this section to summarise the book without giving the
+              ending away. It says what the book is about and what kind of
+              reader it suits.
+            </p>
+            <p>
+              I created this paragraph for my own opinion of the book: what
+              worked, what did not, and whether I would read it again.
+            </p>
+          </section>
+
+          <section class="book-block">
+            <h2>Genres</h2>
+            <p class="tag-row">
+              <span class="genre-tag">Fiction</span>
+              <span class="genre-tag">Literary</span>
+            </p>
+          </section>
+
+          <section class="book-block">
+            <h2>Tags</h2>
+            <p class="tag-row">
+              <span class="tag">slow burn</span>
+              <span class="tag">family</span>
+              <span class="tag">first novel</span>
+              <span class="tag">under 300 pages</span>
+            </p>
+          </section>
+
+        </article>
+
+        <!-- RIGHT COLUMN - REVIEWS -->
+        <aside class="book-side">
+
+          <h2 class="book-sideheading">Reviews</h2>
+
+          <ul class="rating-bars">
+            <li class="rating-row rating-5">
+              <span class="rating-score">5</span>
+              <span class="rating-track"><span class="rating-fill"></span></span>
+              <span class="rating-count">61</span>
+            </li>
+            <li class="rating-row rating-4">
+              <span class="rating-score">4</span>
+              <span class="rating-track"><span class="rating-fill"></span></span>
+              <span class="rating-count">44</span>
+            </li>
+            <li class="rating-row rating-3">
+              <span class="rating-score">3</span>
+              <span class="rating-track"><span class="rating-fill"></span></span>
+              <span class="rating-count">15</span>
+            </li>
+            <li class="rating-row rating-2">
+              <span class="rating-score">2</span>
+              <span class="rating-track"><span class="rating-fill"></span></span>
+              <span class="rating-count">6</span>
+            </li>
+            <li class="rating-row rating-1">
+              <span class="rating-score">1</span>
+              <span class="rating-track"><span class="rating-fill"></span></span>
+              <span class="rating-count">2</span>
+            </li>
+          </ul>
+          <p class="rating-caption">Number of people</p>
+
+          <div class="filter-bar">
+            <span class="filter-label">Filter by</span>
+            <button type="button" class="sort-button">Newest &darr;</button>
+          </div>
+
+          <ul class="reviewer-list">
+
+            <li class="reviewer">
+              <h3>Reviewer Name</h3>
+              <p class="rating">5 out of 5</p>
+              <p>I created this card to show one reader's comment on the book.</p>
+            </li>
+
+            <li class="reviewer">
+              <h3>Reviewer Name</h3>
+              <p class="rating">4 out of 5</p>
+              <p>I created this card to show one reader's comment on the book.</p>
+            </li>
+
+            <li class="reviewer">
+              <h3>Reviewer Name</h3>
+              <p class="rating">3 out of 5</p>
+              <p>I created this card to show one reader's comment on the book.</p>
+            </li>
+
+            <li class="reviewer extra">
+              <h3>Reviewer Name</h3>
+              <p class="rating">5 out of 5</p>
+              <p>I created this card to show one reader's comment on the book.</p>
+            </li>
+
+            <li class="reviewer extra">
+              <h3>Reviewer Name</h3>
+              <p class="rating">4 out of 5</p>
+              <p>I created this card to show one reader's comment on the book.</p>
+            </li>
+
+            <li class="reviewer extra">
+              <h3>Reviewer Name</h3>
+              <p class="rating">2 out of 5</p>
+              <p>I created this card to show one reader's comment on the book.</p>
+            </li>
+
+          </ul>
+
+          <button type="button" id="showReviews" class="show-reviews">Show all reviews</button>
+
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+
+      <div class="footer-column">
+        <h4>Well Worth Reading</h4>
+        <p>Reviews of books I actually finished.</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Explore</h4>
+        <p class="footer-subheadings">Find a book you like</p>
+        <a href="index.html">Home</a>
+        <a href="reviews.html">Browse</a>
+        <a href="book.html">Featured book</a>
+      </div>
+
+      <div class="footer-column">
+        <h4>Get in touch</h4>
+        <p class="footer-subheadings">Suggest a book</p>
+        <a href="mailto:email@gmail.com">email@gmail.com</a>
+      </div>
+
+    </div>
+
+    <p class="footer-copyright">&copy; 2026 Well Worth Reading</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
