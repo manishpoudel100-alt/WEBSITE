@@ -1,0 +1,230 @@
+ <!--  HOME PAGE FILE: index.html -->  
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Well Worth Reading</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <header>
+    <div class="heading-bar">
+
+      <a class="brand" href="index.html">
+        <span class="brand-top">Well Worth</span>
+        <span class="brand-bottom">Reading</span>
+      </a>
+
+      <nav>
+        <a class="active" href="index.html">Home</a>
+        <a href="reviews.html">Browse</a>
+        <a href="book.html">Featured book</a>
+      </nav>
+
+      <div class="search">
+        <input type="search" placeholder="Search titles or authors" aria-label="Search books">
+        <button type="button">Search</button>
+      </div>
+      <button type="button" id="darkmode" class="darkmode">Dark mode</button>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- DISCOVER -->
+    <section class="discover">
+      <div class="discover-content">
+
+        <div class="discover-heading">
+          <h1>Discover</h1>
+          <p>
+            I created this section to invite readers into the site. The shelf
+            beside this text is always moving, hovering over it pauses the
+            covers, and the one marked in gold is this month's featured book.
+          </p>
+          <a class="button-link" href="reviews.html">Browse all reviews</a>
+        </div>
+
+        <div class="discover-box">
+          <div class="discover-columns" id="discoverColumns">
+
+            <div class="discover-column first-column">
+              <div class="shelf-cover">
+                <img src="images/book-5.jpg" alt="Cover of Book Title Five">
+              </div>
+              <div class="shelf-cover">
+                <img src="images/book-4.jpg" alt="Cover of Book Title Four">
+              </div>
+              <div class="shelf-cover">
+                <img src="images/book-7.jpg" alt="Cover of Book Title Seven">
+              </div>
+              <div class="shelf-cover">
+                <img src="images/book-5.jpg" alt="">
+              </div>
+              <div class="shelf-cover">
+                <img src="images/book-4.jpg" alt="">
+              </div>
+              <div class="shelf-cover">
+                <img src="images/book-7.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="discover-column second-column">
+              <div class="shelf-cover">
+                <img src="images/book-2.jpg" alt="Cover of Book Title Two">
+              </div>
+              <a class="shelf-cover book-link" href="book.html">
+                <img src="images/book-1.jpg" alt="Cover of Book Title One">
+                <span class="book-label">Read review</span>
+              </a>
+              <div class="shelf-cover">
+                <img src="images/book-8.jpg" alt="Cover of Book Title Eight">
+              </div>
+              <div class="shelf-cover">
+                <img src="images/book-2.jpg" alt="">
+              </div>
+              <a class="shelf-cover book-link" href="book.html">
+                <img src="images/book-1.jpg" alt="">
+                <span class="book-label">Read review</span>
+              </a>
+              <div class="shelf-cover">
+                <img src="images/book-8.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="discover-column third-column">
+              <div class="shelf-cover">
+                <img src="images/book-3.jpg" alt="Cover of Book Title Three">
+              </div>
+              <div class="shelf-cover">
+                <img src="images/book-6.jpg" alt="Cover of Book Title Six">
+              </div>
+              <div class="shelf-cover">
+                <img src="images/book-9.jpg" alt="Cover of Book Title Nine">
+              </div>
+              <div class="shelf-cover">
+                <img src="images/book-3.jpg" alt="">
+              </div>
+              <div class="shelf-cover">
+                <img src="images/book-6.jpg" alt="">
+              </div>
+              <div class="shelf-cover">
+                <img src="images/book-9.jpg" alt="">
+              </div>
+            </div>
+
+          </div>
+
+          <div class="discover-detail">
+            <p class="discover-hint">
+              Hover to pause the shelf. This month's featured book is marked
+              &mdash; click it to read the full review.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="page">
+
+      <!-- GENRES -->
+      <section class="genres">
+        <h2 class="genre-right">Genres</h2>
+        <p class="genreintro-right">
+          I created this section so that picking a genre takes the reader
+          straight to the reviews in it.
+        </p>
+
+        <div class="boxcards">
+          <a class="genre fiction" href="reviews.html">
+            <h3>Fiction</h3>
+            <p>Novels and short stories.</p>
+          </a>
+          <a class="genre scifi" href="reviews.html">
+            <h3>Science fiction</h3>
+            <p>Futures, space and the strange.</p>
+          </a>
+          <a class="genre nonfiction" href="reviews.html">
+            <h3>Non-fiction</h3>
+            <p>History, science and real lives.</p>
+          </a>
+        </div>
+      </section>
+
+      <!-- COMMUNITIES -->
+      <section class="communities">
+        <h2>Communities</h2>
+
+        <div class="boxcards">
+          <div class="communities-cards communities-widecard">
+            <img src="images/communities.jpg" alt="Three reading groups meeting">
+            <h3>Read along with other people</h3>
+            <p>
+              I created this section to write about reading with other people.
+              It is where I mention the book club I go to, the online reading
+              group I follow, and how other people's recommendations decide
+              what I read next.
+            </p>
+          </div>
+
+          <div class="communities-cards">
+            <h3>Monthly pick</h3>
+            <p>
+              I created this card to explain the idea of one shared book a
+              month, and to say which one I am reading now.
+            </p>
+            <a class="button-link" href="reviews.html">See this month</a>
+          </div>
+
+          <div class="communities-cards">
+            <h3>Suggest a book</h3>
+            <p>
+              I created this card to invite readers to send me something to
+              read next. I reply to every message.
+            </p>
+            <a class="button-link" href="mailto:email@gmail.com">Send a suggestion</a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+
+      <div class="footer-column">
+        <h4>Well Worth Reading</h4>
+        <p>Reviews of books I actually finished.</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Explore</h4>
+        <p class="footer-subheadings">Find a book you like</p>
+        <a href="index.html">Home</a>
+        <a href="reviews.html">Browse</a>
+        <a href="book.html">Featured book</a>
+      </div>
+
+      <div class="footer-column">
+        <h4>Get in touch</h4>
+        <p class="footer-subheadings">Suggest a book</p>
+        <a href="mailto:email@gmail.com">email@gmail.com</a>
+      </div>
+
+    </div>
+
+    <p class="footer-copyright">&copy; 2026 Well Worth Reading</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
